@@ -1,5 +1,5 @@
 # 💫 About Me:
-I'm Soumyajit Banerjee.<br>I'm Currently Completing Diploma in Computer Science and Technology at Abacus Institute of Engineering and Management.<br>I'm looking to Collaborate on Software Developer Job Role.<br>Passionate about building innovative software solutions with a strong foundation in programming and web technologies. Open to internships, freelance opportunities, and entry-level roles.
+I'm Soumyajit Banerjee.<br>I'm Completing Diploma in Computer Science and Technology at Abacus Institute of Engineering and Management.<br>I'm looking to Collaborate on Software Developer Job Role.<br>Passionate about building innovative software solutions with a strong foundation in programming and web technologies. Open to internships, freelance opportunities, and entry-level roles.
 
 
 ## 🌐 Socials:
