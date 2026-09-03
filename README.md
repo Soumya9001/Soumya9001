@@ -1,3 +1,10 @@
+<!-- Animated Terminal Banner -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Soumya9001/Soumya9001/main/dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Soumya9001/Soumya9001/main/light.svg">
+  <img alt="Soumyajit Banerjee - Full Stack Developer" src="https://raw.githubusercontent.com/Soumya9001/Soumya9001/main/dark.svg" width="100%">
+</picture>
+
 # 💫 About Me:
 I'm Soumyajit Banerjee.<br>I'm Completed Diploma in Computer Science and Technology at Abacus Institute of Engineering and Management.<br>I'm looking to Collaborate on Software Developer Job Role.<br>Passionate about building innovative software solutions with a strong foundation in programming and web technologies. Open to internships, freelance opportunities, and entry-level roles.
 
