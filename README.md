@@ -38,11 +38,12 @@
 ### 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Soumya9001&show_icons=true&theme=radical" alt="GitHub Stats" />
+  <img src="./profile/stats-card.svg" alt="GitHub Stats" width="400" />
+  <img src="./profile/streak.svg" alt="GitHub Streak" width="400" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Soumya9001&theme=radical" alt="GitHub Streak" />
+  <img src="./profile/top-langs.svg" alt="Top Languages" width="400" />
 </p>
 
 ---
