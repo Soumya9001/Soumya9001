@@ -1,0 +1,70 @@
+name: Generate Stats Cards
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'  # every 6 hours
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  stats:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate Stats Card
+        uses: anuraghazra/github-readme-stats@master
+        with:
+          username: Soumya9001
+          theme: gruvbox
+          hide_border: false
+          include_all_commits: true
+          count_private: true
+          show_icons: true
+          icons_color: 00f964
+          card_width: 500
+          text_color: c9d1d9
+          bg_color: 0d1117
+          line_height: 100
+          title_color: 58a6ff
+          ring_color: 30363d
+          icon_color: 00f964
+          disable_animations: false
+
+      - name: Move stats card
+        run: mkdir -p profile && mv stats-card.svg profile/stats-card.svg
+
+      - name: Generate Top Langs Card
+        uses: anuraghazra/github-readme-stats@master
+        with:
+          username: Soumya9001
+          theme: gruvbox
+          hide_border: false
+          include_all_commits: true
+          count_private: true
+          show_icons: true
+          icons_color: 00f964
+          card_width: 500
+          text_color: c9d1d9
+          bg_color: 0d1117
+          line_height: 100
+          title_color: 58a6ff
+          ring_color: 30363d
+          icon_color: 00f964
+          layout: compact
+          langs_count: 8
+
+      - name: Move top langs card
+        run: mv top-langs.svg profile/top-langs.svg
+
+      - name: Commit and push
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add profile/
+          git diff --staged --quiet || git commit -m "Update stats cards [skip ci]"
+          git push

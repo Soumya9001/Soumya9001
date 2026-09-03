@@ -1,0 +1,45 @@
+name: Generate Streak Stats
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'  # every 6 hours
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  streak:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate Streak Stats
+        uses: DenverCoder1/github-readme-streak-stats@main
+        with:
+          username: Soumya9001
+          theme: gruvbox
+          hide_border: false
+          text_color: c9d1d9
+          bg_color: 0d1117
+          stroke: 30363d
+          ring: 58a6ff
+          fire: 00f964
+          currStreakNum: 00f964
+          sideNums: c9d1d9
+          currStreakLabel: 58a6ff
+          sideLabels: 58a6ff
+          dates: 8b949e
+
+      - name: Move streak card
+        run: mkdir -p profile && mv streak.svg profile/streak.svg
+
+      - name: Commit and push
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add profile/
+          git diff --staged --quiet || git commit -m "Update streak stats [skip ci]"
+          git push
