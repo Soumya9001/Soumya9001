@@ -18,7 +18,18 @@
 - 🔭 I'm currently working on **Web Development & AI Projects**
 - 🌱 I'm currently learning **New Technologies**
 - 💬 Ask me about **Web Dev, Programming**
-- 📫 How to reach me: [![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github)](https://github.com/Soumya9001)
+
+---
+
+### 📫 Connect With Me
+
+<p align="center">
+  <a href="https://x.com/MrBanerjee27214" target="_blank"><img src="https://img.shields.io/badge/-X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X" /></a>
+  <a href="mailto:sounyajitforcollege@gmail.com"><img src="https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="https://github.com/Soumya9001" target="_blank"><img src="https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+  <a href="LINKEDIN_URL_HERE" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="INSTAGRAM_URL_HERE" target="_blank"><img src="https://img.shields.io/badge/-Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a>
+</p>
 
 ---
 
