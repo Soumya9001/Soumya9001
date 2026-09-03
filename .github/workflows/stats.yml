@@ -19,6 +19,7 @@ jobs:
       - name: Generate Stats Card
         uses: anuraghazra/github-readme-stats@master
         with:
+          token: ${{ secrets.STATS_TOKEN }}
           username: Soumya9001
           theme: gruvbox
           hide_border: false
@@ -41,6 +42,7 @@ jobs:
       - name: Generate Top Langs Card
         uses: anuraghazra/github-readme-stats@master
         with:
+          token: ${{ secrets.STATS_TOKEN }}
           username: Soumya9001
           theme: gruvbox
           hide_border: false

@@ -19,6 +19,7 @@ jobs:
       - name: Generate Streak Stats
         uses: DenverCoder1/github-readme-streak-stats@main
         with:
+          token: ${{ secrets.STATS_TOKEN }}
           username: Soumya9001
           theme: gruvbox
           hide_border: false
